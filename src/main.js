@@ -90,7 +90,7 @@ scene("gameover", (score, screenshot) => {
 	if (score > highScore) highScore = score;
 
 	play("bruh");
-sdsd
+	
 	loadSprite("gameOverScreen", screenshot);
 	add([sprite("gameOverScreen", { width: width(), height: height() })]);
 
